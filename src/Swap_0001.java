@@ -1,4 +1,4 @@
-public class Swap0001 {
+public class Swap_0001 {
     public int[] Swap(int a, int b) {
         int temp = a;
         a = b;
@@ -8,7 +8,7 @@ public class Swap0001 {
     }
 
     public static void main(String[] args) {
-        Swap0001 swap0001 = new Swap0001();
+        Swap_0001 swap0001 = new Swap_0001();
         int a = 2, b = 4;
         int[] swapped = swap0001.Swap(a, b);
 
