@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BinaryConvert_0006 {
+public class Ex0006_BinaryConvert {
     public String binaryConvert(int num) {
         StringBuilder result = new StringBuilder();
         while (num != 0) {
@@ -10,7 +10,7 @@ public class BinaryConvert_0006 {
         return result.toString();
     }
     public static void main(String[] args) {
-        BinaryConvert_0006 binaryConvert_0006 = new BinaryConvert_0006();
+        Ex0006_BinaryConvert binaryConvert_0006 = new Ex0006_BinaryConvert();
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter an integer: ");

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class BinaryCalculator_0004 {
+public class Ex0004_BinaryCalculator {
     public ArrayList<Short> addBinary(long binary1, long binary2) {
         ArrayList<Short> sum = new ArrayList<>();
         short carry = 0;
@@ -21,7 +21,7 @@ public class BinaryCalculator_0004 {
     }
 
     public static void main(String[] args) {
-        BinaryCalculator_0004 binaryCalculator = new BinaryCalculator_0004();
+        Ex0004_BinaryCalculator binaryCalculator = new Ex0004_BinaryCalculator();
         long binary1 = 10010101;
         long binary2 = 1111101000;
         ArrayList<Short> result = binaryCalculator.addBinary(binary1, binary2);

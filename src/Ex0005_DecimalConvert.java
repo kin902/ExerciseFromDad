@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class DecimalConvert_0005 {
+public class Ex0005_DecimalConvert {
     public int decimalConvert(long binary) {
         int result = 0;
         int times = 1;
@@ -16,7 +16,7 @@ public class DecimalConvert_0005 {
         return result;
     }
     public static void main(String[] args) {
-        DecimalConvert_0005 dc = new DecimalConvert_0005();
+        Ex0005_DecimalConvert dc = new Ex0005_DecimalConvert();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter binary number: ");
         long num = sc.nextLong();

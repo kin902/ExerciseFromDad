@@ -1,4 +1,4 @@
-public class RobotFace_0003 {
+public class Ex0003_RobotFace {
     public void robotFace() {
         System.out.println(" +\"\"\"\"\"+ ");
         System.out.println("[| o o |]");
@@ -8,7 +8,7 @@ public class RobotFace_0003 {
     }
 
     public static void main(String[] args) {
-        RobotFace_0003 robotFace = new RobotFace_0003();
+        Ex0003_RobotFace robotFace = new Ex0003_RobotFace();
         robotFace.robotFace();
 
     }

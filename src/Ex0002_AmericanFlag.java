@@ -1,4 +1,4 @@
-public class AmericanFlag_0002 {
+public class Ex0002_AmericanFlag {
     public void printAmericanFlag() {
         System.out.println("* * * * * * ==================================");
         System.out.println(" * * * * *  ==================================");
@@ -19,7 +19,7 @@ public class AmericanFlag_0002 {
     }
 
     public static void main(String[] args) {
-        AmericanFlag_0002 a = new AmericanFlag_0002();
+        Ex0002_AmericanFlag a = new Ex0002_AmericanFlag();
         a.printAmericanFlag();
 
     }
