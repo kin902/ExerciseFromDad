@@ -9,6 +9,7 @@ public class Ex0013_ComputesNValue {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Input a number: ");
-        cnv.computeNValue(scanner.nextInt());
+        int num = scanner.nextInt();
+        cnv.computeNValue(num);
     }
 }

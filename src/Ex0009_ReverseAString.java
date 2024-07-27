@@ -14,6 +14,7 @@ public class Ex0009_ReverseAString {
         Ex0009_ReverseAString ras = new Ex0009_ReverseAString();
 
         System.out.println("Input a String: ");
-        System.out.println("After Reverse: " + ras.reverseAString(scanner.nextLine()));
+        String s = scanner.nextLine();
+        System.out.println("After Reverse: " + ras.reverseAString(s));
     }
 }
