@@ -1,6 +1,6 @@
 package Enum;
 
-public class Ex0056_Enum1 {
+public class Ex0067_Enum1 {
     public static void main(String[] args) {
 
         System.out.println("Today is: " + DayOfWeek.MONDAY);

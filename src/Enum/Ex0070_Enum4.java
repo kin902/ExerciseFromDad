@@ -1,6 +1,6 @@
 package Enum;
 
-public class Ex0059_Enum4 {
+public class Ex0070_Enum4 {
     public static void main(String[] args) {
         System.out.println("First direction is: " + Direction.NORTH);
         System.out.println("First direction is: " + Direction.WEST);
