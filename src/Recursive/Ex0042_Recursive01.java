@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Ex0042_Recursive01 {
     public int allSum(int min, int max) {
-        return ((max - min) + 1) * (min + max) / 2;
+        if (min == max) return min;
+        return min + allSum(min + 1, max);
     }
 
     public static void main(String[] args) {
